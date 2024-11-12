@@ -1,0 +1,75 @@
+ body{ 
+  
+    background-image: url(eesi.jpg);
+ background-repeat: no-repeat;
+ height: auto;
+ width: auto;
+ 
+} 
+ nav{
+    height: 90px;
+    background-image:linear-gradient(purple,green,red)
+  
+}
+ table{
+    border: 3px solid black
+
+
+}
+td{
+    border:3px solid black
+}
+th{
+    border: 3px solid black
+}
+header{
+    background-color: blueviolet;
+}
+footer{
+    background-color: blueviolet;
+    font-size:30px;
+}
+#texto{
+    background-color: blueviolet;
+}
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main right right'
+    'menu footer footer footer footer footer';
+  gap: 10px;
+  background-color: #8f06ff;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgb(240, 234, 234);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+#caja{
+    background-color: red;
+    color: aliceblue;
+}
+table{
+    background-color: cyan;
+}
+h2{
+    background-color: blueviolet;
+}
+#tex{
+    background-color: cadetblue;
+}
+p{
+    font-size: 20px;
+}
+#lista{
+    background-color: cadetblue;
+} 
